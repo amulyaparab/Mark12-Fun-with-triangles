@@ -5,72 +5,92 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz on Triangles</title>
+    <link href="styles2.css" rel="stylesheet" />
   </head>
   <body>
-    <h1>Quiz on Triangles</h1>
-    <form class="quiz-container">
-      <p>If a triangle has an angle of 90 degrees, what is it called?</p>
-      <label
-        ><input type="radio" name="question1" value="obtuse" /> obtuse
-      </label>
-      <label
-        ><input type="radio" name="question1" value="acute" /> acute
-      </label>
-      <label
-        ><input type="radio" name="question1" value="right-angled" />
-        right-angled
-      </label>
+    <nav class="nav-container">
+      <h1>Fun With Triangles💫</h1>
+      <ul class="non-bullet">
+        <li class="inline">
+          <a href="isTriangle.html">IsTriangle?</a>
+        </li>
+        <li class="inline">
+          <a href="quiz.html">Quiz</a>
+        </li>
+        <li class="inline">
+          <a href="hypotenuse.html">Hypotenuse</a>
+        </li>
+        <li class="inline">
+          <a href="area.html">Area</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="container">
+      <h2>Quiz on Triangles</h2>
+      <form class="quiz-container">
+        <p>If a triangle has an angle of 90 degrees, what is it called?</p>
+        <label
+          ><input type="radio" name="question1" value="obtuse" /> obtuse
+        </label>
+        <label
+          ><input type="radio" name="question1" value="acute" /> acute
+        </label>
+        <label
+          ><input type="radio" name="question1" value="right-angled" />
+          right-angled
+        </label>
 
-      <p>If a triangle has an angle of 120 degrees, what is it called?</p>
-      <label
-        ><input type="radio" name="question2" value="obtuse" /> obtuse
-      </label>
-      <label
-        ><input type="radio" name="question2" value="acute" /> acute
-      </label>
-      <label
-        ><input type="radio" name="question2" value="right-angled" />
-        right-angled
-      </label>
+        <p>If a triangle has an angle of 120 degrees, what is it called?</p>
+        <label
+          ><input type="radio" name="question2" value="obtuse" /> obtuse
+        </label>
+        <label
+          ><input type="radio" name="question2" value="acute" /> acute
+        </label>
+        <label
+          ><input type="radio" name="question2" value="right-angled" />
+          right-angled
+        </label>
 
-      <p>If a triangle has an angle of 45 degrees, what is it called?</p>
-      <label
-        ><input type="radio" name="question3" value="obtuse" /> obtuse
-      </label>
-      <label
-        ><input type="radio" name="question3" value="acute" /> acute
-      </label>
-      <label
-        ><input type="radio" name="question3" value="right-angled" />
-        right-angled
-      </label>
+        <p>If a triangle has an angle of 45 degrees, what is it called?</p>
+        <label
+          ><input type="radio" name="question3" value="obtuse" /> obtuse
+        </label>
+        <label
+          ><input type="radio" name="question3" value="acute" /> acute
+        </label>
+        <label
+          ><input type="radio" name="question3" value="right-angled" />
+          right-angled
+        </label>
 
-      <p>
-        What is the third angle for the triangle where angle1 = 80° and angle2 =
-        40°?
-      </p>
-      <label><input type="radio" name="question4" value="45°" />45°</label>
-      <label><input type="radio" name="question4" value="90°" />90°</label>
-      <label><input type="radio" name="question4" value="60°" />60°</label>
+        <p>
+          What is the third angle for the triangle where angle1 = 80° and angle2
+          = 40°?
+        </p>
+        <label><input type="radio" name="question4" value="45°" />45°</label>
+        <label><input type="radio" name="question4" value="90°" />90°</label>
+        <label><input type="radio" name="question4" value="60°" />60°</label>
 
-      <p>Which of the following triangles are always similar?</p>
-      <label
-        ><input
-          type="radio"
-          name="question6"
-          value="Equilateral triangle"
-        />Equilateral triangle</label
-      >
-      <label
-        ><input
-          type="radio"
-          name="question6"
-          value="Isosceles triangle"
-        />Isosceles triangle</label
-      >
-    </form>
-    <button id="submit-answers">Submit Answers</button>
-    <h2 id="output"></h2>
+        <p>Which of the following triangles are always similar?</p>
+        <label
+          ><input
+            type="radio"
+            name="question6"
+            value="Equilateral triangle"
+          />Equilateral triangle</label
+        >
+        <label
+          ><input
+            type="radio"
+            name="question6"
+            value="Isosceles triangle"
+          />Isosceles triangle</label
+        >
+      </form>
+      <button id="submit-answers">Submit Answers</button>
+      <h3 id="output"></h3>
+    </div>
     <script src="quiz.js"></script>
   </body>
 </html>
