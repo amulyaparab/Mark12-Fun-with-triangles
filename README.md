@@ -1,8 +1,8 @@
-#Fun With Triangles(Neogcamp-Mark12)
+# Fun With Triangles(Neogcamp-Mark12)
 
 Description: This is an app made with HTML, CSS, and vanillaJS.
 
-Contents:
+# Contents:
 
 - Enter three angles to find out if they make a triangle
 - Answer a quiz on triangles and check your score
