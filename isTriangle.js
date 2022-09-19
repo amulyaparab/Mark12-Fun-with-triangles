@@ -18,6 +18,15 @@ function isTriangle() {
   } else {
     outputEl.innerText = "Oops the angles do not form a triangle...Try again🙁";
   }
+  if (angles[0].value <= 0) {
+    outputEl.innerText = "Enter Valid Data❌";
+  }
+  if (angles[1].value <= 0) {
+    outputEl.innerText = "Enter Valid Data❌";
+  }
+  if (angles[2].value <= 0) {
+    outputEl.innerText = "Enter Valid Data❌";
+  }
 }
 
 isTriangleBtn.addEventListener("click", isTriangle);

@@ -43,6 +43,7 @@ h1 {
 }
 
 h2 {
+  margin: 3rem;
   text-align: center;
   color: var(--primary-color);
 }
@@ -72,7 +73,12 @@ h3 {
   color: var(--primary-color);
   margin-top: 3rem;
 }
-
+.area {
+  border: 2px solid var(--primary-color);
+  padding: 1.5rem 0rem;
+  background-color: #c4b5fd;
+  margin-bottom: 3rem;
+}
 .footer {
   background-color: var(--primary-color);
   text-align: center;

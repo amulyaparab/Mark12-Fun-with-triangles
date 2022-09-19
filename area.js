@@ -8,12 +8,17 @@ function calculateBaseIntoHeight(b, h) {
 }
 
 function calculateArea() {
-  var baseIntoHeight = calculateBaseIntoHeight(
-    Number(userInput[0].value),
-    Number(userInput[1].value)
-  );
+  var base = Number(userInput[0].value);
+  var height = Number(userInput[1].value);
+  var baseIntoHeight = calculateBaseIntoHeight(base, height);
   var area = baseIntoHeight / 2;
-  outputEl.innerText = "Area of triangle = " + area;
+  outputEl.innerText = "Area of triangle = " + area.toFixed(2);
+  if (base <= 0) {
+    outputEl.innerText = "Enter valid data❌";
+  }
+  if (height <= 0) {
+    outputEl.innerText = "Enter valid data❌";
+  }
 }
 
 calculateAreaBtn.addEventListener("click", calculateArea);
